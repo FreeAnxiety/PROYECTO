@@ -1,0 +1,90 @@
+* {
+				margin:0px;
+				padding:0px;
+			}
+			
+			#header {
+				margin:auto;
+				width:800px;
+				font-family:Monotype Corsiva;
+			}
+			
+			ul, ol {
+				list-style:none;
+			}
+			
+			.nav > li {
+				float:left;
+			}
+			
+			.nav li a {
+				background-color:71e3c8;
+				color:005440;
+				text-decoration:none;
+				padding:10px 30px;
+				display:block;
+			}
+			
+			.nav li a:hover {
+				background-color:71e3c8;
+			}
+			
+			.nav li ul {
+				display:none;
+				position:absolute; z-index:1;
+				min-width:240px;
+                                 
+			}
+			
+			.nav li:hover > ul {
+				display:block;
+			}
+			
+			.nav li ul li {
+				position:relative;
+			}
+			
+			.nav li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+
+
+
+<B>
+<B>
+
+/* Estilos CSS para los botones de menú*/
+.menu {
+    display: flex;
+}
+
+.menu-button {
+    background-color:c095ff;
+    color:005440;
+    padding: 30px 30px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    margin-right: 500px;
+border-radius: 500px 500px 500px 500px;
+font-family:Monotype Corsiva;
+}
+
+.menu-button:last-child {
+    margin-right: 0;
+	top:600px ; left:100px;
+}
+
+/* Estilos CSS para las im genes */
+.image-container {
+    text-align: center;
+}
+
+.image {
+    display: none;
+}
+
+.image.active {
+    display: block;
+}
